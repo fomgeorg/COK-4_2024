@@ -32,7 +32,7 @@ if (imageObj && imageObj.image) {
     // var imgElement = document.createElement('img');
     imgElement.src = imageObj.image_path
     imgElement.alt = 'Test Image';
-    imgElement.className = 'test-image';
+    imgElement.className = `test-image unique_${currentPageIndex}`;
     mainWrapper.appendChild(imgElement);
 }
 contentDiv.appendChild(mainWrapper);

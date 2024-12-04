@@ -70,6 +70,7 @@
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: solid 1px;
+    width: 100%;
 }
 .key_word_text span{
     font-weight: 800;

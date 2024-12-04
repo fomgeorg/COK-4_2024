@@ -282,6 +282,8 @@ function createTest(index){
             }
         }
         if (shouldDecreaseAttempts){
+            nextBtn.classList.remove('gray_dis');
+            nextBtn.disabled = false;
             attempts--;
             localStorage.setItem(`attempts_${number}`, attempts.toString());
         };

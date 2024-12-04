@@ -5,6 +5,10 @@
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 } */
 
+#content > div.only_img > img {
+    width: 50%;
+}
+
 .two_img_custom {
     display: flex;
     justify-content: center;
@@ -47,6 +51,10 @@
     align-items: center !important;
 }
 
+.formula_custom {
+    font-size: 30px !important;
+}
+
 
 #content > div.subtitle_wrapper {
     margin-bottom: 25px;
@@ -63,6 +71,10 @@
     margin-left: 25px;
     list-style-position: inside;
 } 
+.ol_custom li {
+    padding: 7px;
+} 
+
 
 .table_custom {
     border-collapse: collapse;
