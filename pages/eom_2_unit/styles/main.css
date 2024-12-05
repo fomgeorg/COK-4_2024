@@ -1920,6 +1920,12 @@ line{
     .number {
         font-size: 20px;
     }
+
+    img {
+        width: 100%;
+        min-width: initial !important;
+    }
+
     .item_dr{
         font-size: 10px;
     }

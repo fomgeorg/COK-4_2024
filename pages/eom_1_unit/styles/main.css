@@ -1038,6 +1038,12 @@ body, html {
     .small {
         max-height: 55px !important;
     }
+
+    img {
+        width: 100%;
+        min-width: initial !important;
+    }
+
     .themes_lightning {
         font-size: 11px !important;
         text-align: start;
