@@ -1463,6 +1463,12 @@ line{
     .number {
         font-size: 15px;
     }
+
+    img {
+        width: 100%;
+        min-width: initial !important;
+    }
+
     .item_dr{
         font-size: 13px;
     }
