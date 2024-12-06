@@ -1305,7 +1305,7 @@ line{
 }
 @media (max-width: 950px) {
     .number{
-        font-size: 20px;
+        font-size: 17px;
     }
     .item_dr{
         height: 110px;
@@ -1368,6 +1368,15 @@ line{
     }
     .img-col{
         height: 100px;
+    }
+    .unique_13{
+        width: 100% !important;
+    }
+    .image_wrapper{
+        overflow: scroll !important;
+    }
+    .image_wrapper img{
+        height: 500px;
     }
 }
 @media (max-width: 650px) {
@@ -1464,6 +1473,20 @@ line{
         font-size: 15px;
     }
 
+    .main_wrapper img {
+        width: 100% !important;
+    }
+
+    .image_test_type_2 {
+        overflow: scroll;
+        min-width: initial !important;
+        width: 100% !important;
+    }
+
+    .number {
+        border-radius: 5px 25px 25px 5px;
+    }
+
     img {
         width: 100%;
         min-width: initial !important;
@@ -1514,6 +1537,13 @@ line{
     }
 }
 @media (max-width: 1500px) {
+    .image_wrapper{
+        width: 100% !important; 
+        overflow: scroll !important;
+    }
+    .image_wrapper img{
+        height: 500px;
+    }
     .image_wrapper img{
         width: initial;
     }
